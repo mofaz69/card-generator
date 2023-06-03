@@ -1,0 +1,25 @@
+:root {
+    --light-theme-background-color: #fff;
+    --light-theme-text-color: #000;
+    --dark-theme-background-color: #000;
+    --dark-theme-text-color: #fff;
+}
+
+.card {
+    width: 12.5rem;
+    height: 12.5rem;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.light {
+    background-color: var(--light-theme-background-color);
+    color: var(--light-theme-text-color);
+}
+
+.dark {
+    background-color: var(--dark-theme-background-color);
+    color: var(--dark-theme-text-color);
+}

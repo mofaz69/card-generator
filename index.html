@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form id="card-form">
         <input type="text" name="name" placeholder="Name">
         <input type="text" name="title" placeholder="Title">
         <input type="text" name="description" placeholder="Description">
+        <select id="theme">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </select>
+        <button type="submit">Add Card</button>
     </form>
+    <div id="card-list"></div>
 </body>
 </html>
